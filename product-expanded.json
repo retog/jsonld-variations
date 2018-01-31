@@ -1,0 +1,107 @@
+[
+  {
+    "@type": [
+      "http://schema.org/Product"
+    ],
+    "http://schema.org/aggregateRating": [
+      {
+        "@type": [
+          "http://schema.org/AggregateRating"
+        ],
+        "http://schema.org/ratingValue": [
+          {
+            "@value": "4.4"
+          }
+        ],
+        "http://schema.org/reviewCount": [
+          {
+            "@value": "89"
+          }
+        ]
+      }
+    ],
+    "http://schema.org/brand": [
+      {
+        "@type": [
+          "http://schema.org/Thing"
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "ACME"
+          }
+        ]
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Sleeker than ACME's Classic Anvil, the Executive Anvil is perfect for the business traveler looking for something to drop from a height."
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "https://example.com/photos/1x1/photo.jpg"
+      },
+      {
+        "@id": "https://example.com/photos/4x3/photo.jpg"
+      },
+      {
+        "@id": "https://example.com/photos/16x9/photo.jpg"
+      }
+    ],
+    "http://schema.org/mpn": [
+      {
+        "@value": "925872"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "Executive Anvil"
+      }
+    ],
+    "http://schema.org/offers": [
+      {
+        "@type": [
+          "http://schema.org/Offer"
+        ],
+        "http://schema.org/availability": [
+          {
+            "@value": "http://schema.org/InStock"
+          }
+        ],
+        "http://schema.org/itemCondition": [
+          {
+            "@value": "http://schema.org/UsedCondition"
+          }
+        ],
+        "http://schema.org/price": [
+          {
+            "@value": "119.99"
+          }
+        ],
+        "http://schema.org/priceCurrency": [
+          {
+            "@value": "USD"
+          }
+        ],
+        "http://schema.org/priceValidUntil": [
+          {
+            "@type": "http://schema.org/Date",
+            "@value": "2020-11-05"
+          }
+        ],
+        "http://schema.org/seller": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Executive Objects"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
